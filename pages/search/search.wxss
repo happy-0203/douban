@@ -1,0 +1,32 @@
+.item-list-group{
+  padding: 10rpx 20rpx;
+}
+
+.item-group{
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1px solid #ccc;
+}
+.image-info{
+  width: 100rpx;
+  height: 110rpx;
+}
+
+.item-info{
+  margin-left: 10rpx;
+  margin-top: 8rpx;
+  margin-bottom: 8rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-title{
+  color: #353535;
+  font-size: 32rpx;
+}
+
+.rate-year{
+  color: #ccc;
+  font-size: 28rpx;
+}

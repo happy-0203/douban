@@ -1,0 +1,7 @@
+<searchbar isnavigator="{{true}}"></searchbar>
+
+<!-- 本周口碑 -->
+<indexmodule data="{{weeklySubjects}}" title="{{weeklyTitle}}" moreUrl="/pages/list/list?type=weekly" detailUrl="../detail/detail"></indexmodule>
+<!-- 北京地区 -->
+<indexmodule data="{{usSubjects}}" title="{{usTitle}}" moreUrl="/pages/list/list?type=us" detailUrl="../detail/detail"></indexmodule>
+

@@ -1,0 +1,11 @@
+<navigator wx:if="{{item}}" class="item-navigator" item="{{item}}" url="{{detailUrl}}">
+  <view class="item-group">
+    <view class="thumbnail-group">
+      <image class="thumbnail" src="{{item.subject.images.medium}}"></image>
+    </view>
+    <view class="item-title">{{item.subject.title}}</view>
+    <!-- 评分 -->
+    <stars fontColor="#f00" rate="{{item.subject.rating.average}}"></stars>
+  </view>
+</navigator>
+<view wx:else class="item-navigator"></view>

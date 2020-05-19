@@ -1,0 +1,30 @@
+.searchbar {
+  background-color: #41be57;
+  padding: 20rpx;
+}
+
+.navigator-search {
+  width: 100%;
+  background-color: #fff;
+  height: 60rpx;
+  border-radius: 10rpx;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFQ0lEQVRoQ+2Za2hcRRTHz5nExgZEEdaCKCKk+EEoSuuD1GTnzELzsD6xURHUFqlatIhIW/GDyRe1+kG0vhqVVigokYi22qImM3ejpoq2tmD9YLEVtUgULUIxdE3ukZG74e7Nzc7czQYS6MASsnPO/5zfPfO6swgLvOECzx/OABhjJDN3CSFaAKCFmZci4klmPoaIxyYnJ48LId4nokNzUe2aKmCMuRkAbgKA6wEg55nYEQD4lJl3KaUOePo4zTIBGGPuBYB7AEA6lasYIGJ/GIb99QDxBjDG7AWArip5nQKAMUQcY+bmqDIXAMBZVXy2ENHWWT0MH2djzFE7vpO2iPg2M2shxHA+nz+epqW1viaaI6sBYHmKzbtE1OOTR5qNswLGGE5xHETEF6SUn2UJrLVej4jrkyCIuFtKaedU5lYVIAiC95j5lrgqM29WSj2bOVLMwRgzAABr4hpCiNvz+bz9PlObEcAY8zQAbEkkv6IeE89qaq1fRMSH4/qIeLWU8ussBKkAxhg7XvckhC4lop+yiLtstdavIOKDZTtE/ERK2eHyq4BOMw6CYDcz3xDrW0tEO7MI+9oaY0xiWX6AiLb7+k+rQMrTHySi23wFs9rZnRwALES5HR0fH1/Z3d39h49WGsAuALgrVtb2rKuNT+C4zfDwcK8Q4slYzI1Sym0+OtMAtNZ/IuL5kfOs1mifBMo2xphfAOCi6P99RNTt418BEARBFzPbHff/hoiPSimf9xGarU1yaW1qampubW0dd+lWAGittyLiprJTY2PjZW1tbT+4ROrRH21yU5MXEbullPtc2skKDDLzrZHTKSI6xyVQr35jzAoAmNoDENFrHiQBDjPzsiipH4lo2vmnXgkndYrF4sVhGP5c/p6ZtymlNrriVQAYY/4BgMXR+B+VUq50CdSrf2BgYFEulzsd0/OayMkKnGDmCyORQ0R0Zb0SdOkYY84DgJMxO/sWV3EOS9NIVsCeLq+LDE8QUXlZc8WfdX+xWFwahuHUgsHMryul7Mm1aktW4C1mvjvy+JeIFrkE6tVfLBZbwzD8IjYHnlJKPeHSrwBI7ojMfK1S6iuXSD36jTGPAcBzMYDVSqmPXNrJIXQFAHwbc+oloj6XSD36gyD4mJlXlbVKpdKSjo6O313aaWeh7wDg8sjxABHZ9XlOm9Z6JSJ+Hguyn4hafYKmAdijwyOxUt6vlOr3EavVRmv9ASLeWEvMtMPcckT8JpbMnFZBa70OEd+sNV7qG1kQBNuZOb6EzcmpNHl4tBBhGK4rFAo7fKuZCqC1TlYBfLd238DWLuXG4x0iujOLRrWX+s0A8ExcjJlfVUptyBIgzXZkZGTZ5OTk4XgfIv6FiGvy+bzOol/1WiXt+gMAAgDoIyL7N3NLGfNxjcxD1edi68PoErci2TAM+wqFQq8vgV0qAWBTfLWZwTcThBPABtFab0DEl1MC/goA+5l5CBEPCiHGbMvlcs1CCHtrnZuYmFglhFAA0Jb0Z+a/EfHcFF1vCC+AaMLdwcyPI2L5fcH34c9ktycMw5eEEPclb+kiBy8Ib4AI4mwAeCj6XFIjgf1t4DUieqPsP8Ncs91OiEwA5YBDQ0NLGhsbe+yts+PKPc74JTPvmGlXrxWiJoB4VqOjo4tLpZK9nGoJw9D+vGRfQ08zs72Ysp+DpVJptLOz8zdXxWqBmDWAK6ms/Vkh5h1ANNemXb/PNLHnJYADYicRrS1Xdt4CVIEIiIgWBEAKxJGGhoae9vb27xcMQARhj9dXJZO3ffN6CPmsYGcAfJ7SXNr8By+rHk8EGWW1AAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8%;
+}
+
+.search-input-group {
+  width: 100%;
+  background-color: #fff;
+  height: 60rpx;
+  border-radius: 10rpx;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.search-input{
+  min-height: 40rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+}

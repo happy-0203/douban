@@ -1,0 +1,45 @@
+<view class="item-header">
+  <view class="item-title">{{title}}</view>
+  <view class="item-detail">
+    <view class="left-detail">
+      <view class="item-rate">
+        <stars rate="{{average}}" isShowText="{{true}}" fontSize="{{26}}"></stars>
+        <text class="comment-persons">{{commoentPersons}}人评价</text>
+      </view>
+      <view class="item-sub-detail">
+        <view class="item-sub-type">{{itemSubType}}</view>
+        <view class="item-show">{{pubdate}}</view>
+        <view class="item-actor">{{item_actor}}</view>
+      </view>
+    </view>
+    <view class="right-detail">
+      <image src="{{imageUrl}}"></image>
+    </view>
+  </view>
+</view>
+
+<view class="item-tags">
+  <view class="item-tags-title">豆瓣成员常用标签</view>
+  <view class="item-tags-list">
+    <text wx:for="{{tags}}" wx:key="{{index}}">{{item}}</text>
+  </view>
+</view>
+
+<view class="comment-group-list">
+  <view class="comment-title">短评({{comments_count}})</view>
+  <view class="comment-group" wx:for="{{popular_comments}}" wx:key="{{index}}">
+    <view class="comment-left">
+      <image class="avatar" src="{{item.author.avatar}}"></image>
+    </view>
+    <view class="comment-right">
+      <view class="username-rate">
+        <text class="username">{{item.author.name}}</text>
+        <stars rate="{{item.rating.value*2}}" isShowText="{{false}}" fontSize="30"></stars>
+      </view>
+      <view class="comment-time">{{item.created_at}}</view>
+      <view class="comment-content">{{item.content}}</view>
+    </view>
+  </view>
+</view>
+
+<navigator url="../comment/comment?id={{id}}" class="comment-more" hover-class="none">查看更多短评</navigator>

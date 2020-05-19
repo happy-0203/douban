@@ -1,0 +1,10 @@
+<view class="searchbar">
+  <block wx:if="{{isnavigator}}">
+    <navigator url="/pages/search/search" class="navigator-search"></navigator>
+  </block>
+  <block wx:else>
+    <view class="search-input-group">
+      <input class="search-input" placeholder="请输入文字搜索"></input>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,34 @@
+.item-navigator {
+  width: 200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+
+/* 设置最后一个没有边距
+.item-navigator:last-of-type{
+  margin-right: 0;
+} */
+
+.item-group {
+  width: 100%;
+}
+
+.thumbnail-group {
+  width: 100%;
+  height: 284rpx;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.item-title {
+  font-size: 30rpx;
+  width: 100%;
+  text-align: center;
+  margin-top: 10rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,11 @@
+<view class="module-group">
+  <view class="module-top">
+    <view class="module-title">{{title}}</view>
+    <navigator class="module-more" url="{{moreUrl}}">更多</navigator>
+  </view>
+  <scroll-view scroll-x="{{true}}" class="module-scroll-view">
+    <block wx:for="{{data}}" wx:key="{{index}}">
+    <itemview class="itemview" item="{{item}}" detailUrl="{{detailUrl}}?id={{item.subject.id}}"></itemview>
+    </block>
+  </scroll-view>
+</view>

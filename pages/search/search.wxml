@@ -1,0 +1,38 @@
+<searchbar isnavigator="{{false}}"></searchbar>
+<view class="item-list-group">
+  <view class="item-group">
+    <image class="image-info" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570906505.webp"></image>
+    <view class="item-info">
+      <view class="item-title">泰坦尼克号</view>
+      <view class="rate-year">9.3分/1997</view>
+    </view>
+  </view>
+    <view class="item-group">
+    <image class="image-info" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570906505.webp"></image>
+    <view class="item-info">
+      <view class="item-title">泰坦尼克号</view>
+      <view class="rate-year">9.3分/1997</view>
+    </view>
+  </view>
+    <view class="item-group">
+    <image class="image-info" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570906505.webp"></image>
+    <view class="item-info">
+      <view class="item-title">泰坦尼克号</view>
+      <view class="rate-year">9.3分/1997</view>
+    </view>
+  </view>
+    <view class="item-group">
+    <image class="image-info" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570906505.webp"></image>
+    <view class="item-info">
+      <view class="item-title">泰坦尼克号</view>
+      <view class="rate-year">9.3分/1997</view>
+    </view>
+  </view>
+    <view class="item-group">
+    <image class="image-info" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570906505.webp"></image>
+    <view class="item-info">
+      <view class="item-title">泰坦尼克号</view>
+      <view class="rate-year">9.3分/1997</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,93 @@
+.container {
+  padding: 20rpx 30rpx;
+}
+
+.item-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-group .thumbnail {
+  width: 60rpx;
+  height: 70rpx;
+}
+
+.item-group .movie-name {
+  color: #4eb157;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.item-group .movie-rate {
+  color: #ccc;
+  font-size: 30rpx;
+}
+
+.item-comment {
+  margin-top: 36rpx;
+  color: #353535;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.item-comment-list {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.comment-right {
+  margin-left: 20rpx;
+}
+
+.comment-right .username-rate {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.username {
+  color: #353535;
+  font-size: 30rpx;
+  margin-right: 16rpx;
+}
+
+.comment-time {
+  font-size: 24rpx;
+  color: #ccc;
+  margin-top: 16rpx;
+}
+
+.comment-content {
+  margin-top: 18rpx;
+  color: #353535;
+  font-size: 28rpx;
+}
+
+.page-btn-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.page-btn-group .page-btn {
+  color: #898989;
+  flex: 1;
+  border-color: #898989;
+  border-radius: 10rpx;
+  height: 60rpx;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

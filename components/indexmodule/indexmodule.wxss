@@ -1,0 +1,40 @@
+.module-group {
+  background-color: white;
+  padding: 40rpx 40rpx 10rpx 40rpx;
+}
+
+.module-group :last-of-type{
+  padding-bottom: 0;
+}
+
+.module-top {
+  font-size: 36rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.module-top .module-title {
+  color: #494949;
+}
+
+.module-top .module-more {
+  color: #41be57;
+}
+
+.module-scroll-view {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 400rpx;
+  white-space: nowrap;
+}
+
+/* 去掉滚动条 */
+::-webkit-scrollbar { 
+	width: 0; 
+	height: 0; 
+	color: transparent; 
+}
+
+.module-scroll-view .itemview:last-of-type{
+  margin-right: 0;
+}
